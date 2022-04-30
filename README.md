@@ -1,8 +1,6 @@
 # Projeto Labe-Commerce3
+Site de vendas de viagens para outros planetas
 
-link surge: https://pathetic-decision.surge.sh/
+link surge: https://spotted-feet.surge.sh/
 
-## integrantes: Willian Guimaraes Gilloni, Deuzeland Favaro Diniz e Nicoly Barros Henrique Vitorio.
--> O projeto possui todas as funcionalidades requisitadas, operando normalmente. 
--> Maiores dificuldades: Criação do carrinho e lógica do filtro.
 
