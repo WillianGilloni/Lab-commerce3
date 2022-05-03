@@ -11,6 +11,13 @@
 
 }
 
+@media screen and (min-device-width : 320px) and (max-device-width : 480px){
+  .cabecalho{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
 .texto-cabecalho{
   text-shadow: 2px 2px 2px rgb(160, 24, 201);
   font-size: 250%;
@@ -32,3 +39,5 @@
 p{
   font-size: 130%;
 }
+
+

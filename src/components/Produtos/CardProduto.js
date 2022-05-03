@@ -33,7 +33,7 @@ class CardProduto extends React.Component {
       <Cards>
           <TituloViagem>{item.nome}</TituloViagem>
           <Imagem src={item.imagem} />
-          <p>R${item.valor}.000,00</p>
+          <p>R${item.valor},00</p>
          
           <Botao
              onClick={() => this.props.onAddViagemCarrinho(item.id)}>

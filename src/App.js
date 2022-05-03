@@ -51,22 +51,7 @@ class App extends React.Component {
     valorMaximo: 0,
     nomeProduto: "",
     produtos: viagens,
-    itensCarrinho: [
-      {
-        id: 3,
-        nome: "Viagem Vênus",
-        valor: 100 * Math.floor(Math.random() * 99 + 1),
-        imagem: "https://picsum.photos/202/150",
-        quantidade: 2
-      },
-      {
-        id: 2,
-        nome: "Viagem Netuno",
-        valor: 100 * Math.floor(Math.random() * 99 + 1),
-        imagem: "https://picsum.photos/201/150",
-        quantidade: 1
-      }
-    ]
+    itensCarrinho: []
   } 
 
   onChangeValorMinimo = (event) => {
@@ -103,6 +88,8 @@ class App extends React.Component {
 
       this.setState({ itensCarrinho: novaViagemCarrinho2 })
     }
+
+    alert("O produto foi adicionado no carrinho")
   }
 
   RemoverProduto = (viagemId) => {
